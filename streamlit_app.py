@@ -25,3 +25,9 @@ New setion to display fruityvice_response
 import requests
 Fruityvice_requests = resuests.get("https://fruityvice.com/api/fruit/watermelon")
 steamlit.text (fruityvice_response)
+
+New setion to display fruityvice api response
+streamlit.header('Fruityvice Fruit Advice!')
+import requests
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+streamlit.text(fruityvice_response.json())
