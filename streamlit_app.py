@@ -23,7 +23,7 @@ streamlit.dataframe (fruits_to_show)
 
 # New setion to display fruityvice_response
 import requests
-Fruityvice_requests = resuests.get("https://fruityvice.com/api/fruit/watermelon")
+Fruityvice_response = resuests.get("https://fruityvice.com/api/fruit/watermelon")
 steamlit.text (fruityvice_response)
 
 # New setion to display fruityvice api response
